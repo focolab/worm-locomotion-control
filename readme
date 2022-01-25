@@ -1,0 +1,10 @@
+readme
+
+There are two main scripts. In cross_correlation_and_mutual_info_analysis, there are the files to generate the raw data for the mutual information and cross correlation analyses.
+
+In the create_comparison_graphs folder, the next script takes the raw data generated and plots it in the format used in the paper.
+
+
+In the cross_correlation_and_mutual_info_analysis folder, there are analyses for the N2 and genetic mutation worms. The N2 folder contains the data used in the main figures in the paper. Within the N2 folder, there are 3 folders for the forward, backward, and swim analysis. Within each of these folders, there are the raw .hdf5 files of worm movement, a gross instruction file, and a python file already configured to run the analysis when run. The scripts were all tested and worked on Spyder v  4.0.1.
+
+In the create_comparison_graphs folder, 3 comparisons are made: n2 versus model, forwards versus backwards, and swim versus crawl. In each are these folders are the .csv files generated from the cross_correlation_and_mutual_info_analysis, and a python file that should generate the graphs found in the main figures of the paper when run. These scripts were all tested and worked on Spyder v  4.0.1.
